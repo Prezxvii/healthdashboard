@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/healthcare-dashboard/static/css/main.8f04dd9c.css",
+    "main.js": "/healthcare-dashboard/static/js/main.e4174789.js",
+    "static/js/453.1bdb1478.chunk.js": "/healthcare-dashboard/static/js/453.1bdb1478.chunk.js",
+    "index.html": "/healthcare-dashboard/index.html",
+    "main.8f04dd9c.css.map": "/healthcare-dashboard/static/css/main.8f04dd9c.css.map",
+    "main.e4174789.js.map": "/healthcare-dashboard/static/js/main.e4174789.js.map",
+    "453.1bdb1478.chunk.js.map": "/healthcare-dashboard/static/js/453.1bdb1478.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f04dd9c.css",
+    "static/js/main.e4174789.js"
+  ]
+}

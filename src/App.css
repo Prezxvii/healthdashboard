@@ -1,38 +1,64 @@
+/* General body and page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container styling */
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 1200px; /* Limits the max width of the content */
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header styling */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #4b4b4b;
   color: white;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Main content styling */
+main {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Loading text styling */
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Chart area styling */
+canvas {
+  max-width: 100%; /* Ensures the chart is responsive */
+  height: 400px;   /* Fixed height for the chart */
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Small screens responsiveness */
+@media (max-width: 768px) {
+  .App {
+    margin: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-header {
+    font-size: 1.2rem;
   }
 }
